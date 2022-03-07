@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300&display=swap');
+body{
+    background-color: rgb(141 101 116);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    height: 68px;
+    background-color: rgb(0, 0, 0);
+}
+nav ul li{
+    color: white;
+    padding: 0 12px;
+}
+
+
+.brand img{
+    width: 152px;
+}
+
+.container{
+min-height: 72vh;
+background-color: black;
+color: white;
+font-family: 'Sansita Swashed', cursive;
+width: 70%;
+display: flex;
+margin: 23px auto;
+border-radius: 12px;
+background-image: url(images/sangeetbackground.jpg);
+}
+
+.bottom{
+    position: sticky;
+    height: 86px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   
+}
+
+.icons{
+    margin-top: 15px;
+}
+
+.icons i{
+    cursor: pointer;
+}
+
+#myprogressbar{
+    width: 80vw;
+    text-align: center;
+    cursor: pointer;
+}
+
+.songitems{
+    
+    height: 65px;
+    display: flex;
+    background-color: white;
+    color: black;
+    width: 151%;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 52px;
+}
+
+.songitemscontainer{
+margin-top: 23px;
+}
+.songitems img{
+ width: 50px;   
+ margin: 0 23px;
+
+}
+.timestamp{
+    margin: 0 23px;
+}
+
+.timestamp i{
+    cursor: pointer;
+}
+.songinfo{
+    position: absolute;
+    left: 10vw;
+}
+.songinfo img{
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
+}
+
+#heart{
+    margin: -2px -1px;
+}
